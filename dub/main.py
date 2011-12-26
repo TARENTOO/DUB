@@ -32,7 +32,7 @@ IMAGES = os.path.abspath(".") + "\imagenes"
  
 def main():
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
-    pygame.display.set_caption("Pruebas Pygame")
+    pygame.display.set_caption("Dub game")
     
     background = images.load_image(IMAGES + "\mountains.png")
     valdemar = objetos.Player("Valdemar")

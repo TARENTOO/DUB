@@ -45,6 +45,7 @@ def main():
         for eventos in pygame.event.get():
             if eventos.type == QUIT:
                 sys.exit(0)
+        valdemar.gravedad(time)
         valdemar.actualizar(time, keys)
         screen.blit(background, (0, 0))
         screen.blit(valdemar.image, valdemar.rect)
